@@ -9,13 +9,32 @@ header{
     text-align: center;
 }
 
-h1{
+#top-h1{
     color: black;
     position: absolute;
     left: 600px;
     right: 500px;
     top: 40%;
 }
+
+#g-h1{
+    color: black;
+    font-size: 10px;
+    position: absolute;
+    left: 600px;
+    right: 300px;
+    top: 80%;
+}
+
+#n-h1{
+    color: black;
+    font-size: 10px;
+    position: absolute;
+    left: 600px;
+    right: 300px;
+    top: 82%;
+}
+
 
 p{
     color: black;
