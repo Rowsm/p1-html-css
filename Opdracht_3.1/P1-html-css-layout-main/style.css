@@ -6,6 +6,12 @@
 html {
   font-size: 62.5%;
 }
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
 body {
   font-family: "Goldman", cursive;
 }
@@ -17,6 +23,15 @@ body {
   height: 83.55vh;
   object-fit: cover;
   z-index: -1;    
+}
+#indexTitle1 {
+text-align: center;
+font-size: 6.8rem;
+color: #FFFFFF;
+position: absolute;
+top: 35rem;
+left: 25rem;
+width: 96rem;
 }
 nav {
   display: flex;
@@ -45,18 +60,77 @@ nav a {
 nav img {
   width: 5vw;
 }
-#HTML {
+#HTML1 {
   text-align: center;
   font-size: 5rem;
   position: relative;
   top: 4rem;
 }
-#css {
+#HTML2 {
+  text-align: center;
+  font-size: 2.5rem;
+  position: relative;
+  top: 11rem;
+  left: 19rem;
+}
+#HTML-p {
+  width: 50rem;
+  height: auto; 
+  font-size: 1.7rem;
+  word-wrap: break-word;
+  position: relative;
+  top: 11.2rem;
+  left: 78rem;
+  font-family: cursive;
+  font-weight: normal;
+}
+#HTML-img {
   position: relative;
   left: 20rem;
-  top: 4rem;
+  bottom: 14rem;
   font-size: 1rem;
   height: 30rem;
+}
+#JS-BG {
+  background-color: black;
+}
+#JS1 {
+  text-align: center;
+  font-size: 5rem;
+  position: relative;
+  top: 4rem;
+  color: #FFFFFF;
+}
+#JS2 {
+  text-align: center;
+  font-size: 2.5rem;
+  position: relative;
+  top: 11rem;
+  left: 19rem;
+  color: #FFFFFF;
+}
+#JS-p {
+  width: 50rem;
+  height: auto; 
+  font-size: 1.7rem;
+  word-wrap: break-word;
+  position: relative;
+  top: 11.2rem;
+  left: 78rem;
+  font-family: cursive;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+
+
+.yellow {
+  color: #F7DF1E;
+}
+.blue {
+  color: #0071BB;
+}
+.red {
+  color: #E44D27;
 }
 footer {
   width: 100%;
