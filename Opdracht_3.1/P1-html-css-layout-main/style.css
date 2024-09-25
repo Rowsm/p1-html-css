@@ -61,6 +61,7 @@ nav img {
   width: 5vw;
 }
 
+
 #HTML1 {
   text-align: center;
   font-size: 5rem;
@@ -92,6 +93,7 @@ nav img {
   font-size: 1rem;
   height: 30rem;
 }
+
 
 #JS-BG {
   background-color: black;
@@ -144,6 +146,7 @@ nav img {
   height: 25rem;
 }
 
+
 #SQL-BG {
   background-color: black;
 }
@@ -182,6 +185,7 @@ nav img {
   font-size: 1rem;
   height: 20rem;
 }
+
 
 #PHP1 {
   text-align: center;
@@ -225,11 +229,71 @@ nav img {
   font-size: 1rem;
   height: 24rem;
 }
+
+
 #CON1 {
   font-size: 5rem;
   position: absolute;
-  top: 17rem;
+  top: 15rem;
   left: 60rem;
+}
+#name {
+  font-size: 2.5rem;
+  height: 1rem;
+  position: absolute;
+  top: 22rem;
+  left: 43rem;
+}
+#name_i {
+  font-size: 2.5rem;
+  height: 3rem;
+  width: 39%;
+  position: absolute;
+  top: 26rem;
+  left: 43rem;
+}
+#email {
+  font-size: 2.5rem;
+  height: 1rem;
+  position: absolute;
+  top: 30rem;
+  left: 43rem;
+}
+#email_i {
+  font-size: 2.5rem;
+  height: 3rem;
+  width: 39%;
+  position: absolute;
+  top: 34rem;
+  left: 43rem;
+}
+#message {
+  font-size: 2.5rem;
+  height: 1rem;
+  position: absolute;
+  top: 38rem;
+  left: 43rem;
+}
+#message_i {
+  font-size: 2.5rem;
+  height: 7rem;
+  width: 39%;
+  position: absolute;
+  top: 42rem;
+  left: 43rem;
+}
+#button_send {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #00A8C7;
+  padding: 0.6%;
+  border-radius: 10px;
+  border: none;
+  width: 39%;
+  position: absolute;
+  top: 53rem;
+  left: 43rem;
 }
 
 
