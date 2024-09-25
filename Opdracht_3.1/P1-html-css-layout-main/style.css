@@ -60,6 +60,7 @@ nav a {
 nav img {
   width: 5vw;
 }
+
 #HTML1 {
   text-align: center;
   font-size: 5rem;
@@ -91,38 +92,153 @@ nav img {
   font-size: 1rem;
   height: 30rem;
 }
+
 #JS-BG {
   background-color: black;
 }
 #JS1 {
   text-align: center;
   font-size: 5rem;
-  position: relative;
-  top: 4rem;
+  position: absolute;
+  top: 16rem;
+  left: 55rem;
   color: #FFFFFF;
 }
 #JS2 {
   text-align: center;
-  font-size: 2.5rem;
-  position: relative;
-  top: 11rem;
-  left: 19rem;
+  font-size: 2.6rem;
+  position: absolute;
+  top: 28rem;
+  left: 9rem;
   color: #FFFFFF;
 }
-#JS-p {
-  width: 50rem;
+#JS-p1 {
+  width: 63rem;
   height: auto; 
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   word-wrap: break-word;
-  position: relative;
-  top: 11.2rem;
-  left: 78rem;
+  position: absolute;
+  bottom: 30rem;
+  left: 9rem;
   font-family: cursive;
   font-weight: normal;
   color: #FFFFFF;
 }
+#JS-p2 {
+  width: 63rem;
+  height: auto; 
+  font-size: 1.8rem;
+  word-wrap: break-word;
+  position: absolute;
+  bottom: 17rem;
+  left: 9rem;
+  font-family: cursive;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+#JS-img {
+  position: absolute;
+  left: 85rem;
+  top: 29rem;
+  font-size: 1rem;
+  height: 25rem;
+}
+
+#SQL-BG {
+  background-color: black;
+}
+#SQL1 {
+  text-align: center;
+  font-size: 5rem;
+  position: absolute;
+  top: 16rem;
+  left: 65rem;
+  color: #FFFFFF;
+}
+#SQL2 {
+  text-align: center;
+  font-size: 2.6rem;
+  position: absolute;
+  top: 28rem;
+  left: 9rem;
+  color: #FFFFFF;
+}
+#SQL-p1 {
+  width: 63rem;
+  height: auto; 
+  font-size: 1.8rem;
+  word-wrap: break-word;
+  position: absolute;
+  bottom: 19rem;
+  left: 9rem;
+  font-family: cursive;
+  font-weight: normal;
+  color: #FFFFFF;
+}
+#SQL-img {
+  position: absolute;
+  left: 85rem;
+  top: 29rem;
+  font-size: 1rem;
+  height: 20rem;
+}
+
+#PHP1 {
+  text-align: center;
+  font-size: 5rem;
+  position: relative;
+  top: 4rem;
+}
+#PHP2 {
+  text-align: center;
+  font-size: 2.5rem;
+  position: relative;
+  top: 9rem;
+  left: 14rem;
+}
+#PHP-p1 {
+  width: 55rem;
+  height: auto; 
+  font-size: 1.7rem;
+  word-wrap: break-word;
+  position: relative;
+  top: 9rem;
+  left: 77.5rem;
+  font-family: cursive;
+  font-weight: normal;
+}
+#PHP-p2 {
+  width: 55rem;
+  height: auto; 
+  font-size: 1.7rem;
+  word-wrap: break-word;
+  position: relative;
+  top: 12rem;
+  left: 77.5rem;
+  font-family: cursive;
+  font-weight: normal;
+}
+#PHP-img {
+  position: relative;
+  left: 20rem;
+  bottom: 14rem;
+  font-size: 1rem;
+  height: 24rem;
+}
+#CON1 {
+  font-size: 5rem;
+  position: absolute;
+  top: 17rem;
+  left: 60rem;
+}
 
 
+.purple {
+  color: #8993BE;
+}
+.orange {
+  color:  #E48E00;
+}
 .yellow {
   color: #F7DF1E;
 }
