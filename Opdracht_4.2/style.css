@@ -5,9 +5,12 @@ header {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    border-radius: 10px;
 }
-.article-border {
-    border:  10px#000;
+article {
+    border:  2px solid black;
+    border-left: 6px solid black;
+    border-radius: 20px;
 }
 .article-pictures {
     width: 50vw;
