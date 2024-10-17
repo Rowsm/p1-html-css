@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+
+h1 {
+    background-color: red;
+    color: white;
+    display: flex;
+    position: relative;
+    height: 9vh;
+    padding-top: 1rem;
+    padding-left: 4rem;
+}
+
+.title1 {
+    background-color: yellow;
+    position: relative;
+    padding-top: 1rem;
+    padding-left: 4rem;
+}
+.p1 {
+    background-color: yellow;
+    position: relative;
+    height: 23.2vh;
+    padding-left: 4rem;
+    padding-right: 1rem;
+}
+
+.title2 {
+    background-color: orange;
+    position: relative;
+    padding-top: 1rem;
+    padding-left: 4rem;
+}
+.p2 {
+    background-color: orange;
+    position: relative;
+    height: 23.2vh;
+    padding-left: 4rem;
+    padding-right: 1rem;
+}
+
+.title3 {
+    background-color: green;
+    position: relative;
+    padding-top: 1rem;
+    padding-left: 4rem;
+}
+.p3 {
+    background-color: green;
+    position: relative;
+    height: 23.2vh;
+    padding-left: 4rem;
+    padding-right: 1rem;
+}
