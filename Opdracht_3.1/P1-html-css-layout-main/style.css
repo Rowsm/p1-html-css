@@ -36,8 +36,8 @@ width: 96rem;
 nav {
   display: flex;
   width: 100%;
-  padding: 2rem;
-  min-height: 10vh;
+  padding: 0rem;
+  min-height: 17vh;
   align-items: center;
   flex-wrap: wrap;
   margin: auto;
@@ -329,7 +329,8 @@ footer p {
 
 
 .dropdown {
-  float: left;
+  display: flex;
+  margin-right: auto;
   overflow: hidden;
 }
 .dropdown .dropbtn {
@@ -337,7 +338,7 @@ footer p {
   border: none;
   outline: none;
   color: white;
-  padding: 14px 16px;
+  padding: 43px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0; 
@@ -349,21 +350,21 @@ footer p {
   min-width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  top: 16.45vh;
+  top: 17vh;
 }
 .dropdown-content a {
-  float: none;
+  display: flex;
   color: #00A8C7;
   padding: 12px 16px;
   text-decoration: none;
-  display: block;
   text-align: left;
 }
 .dropdown-content a:hover {
   background-color: #E9E9E9;
 }
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 .dropdown:hover .dropbtn {
   background-color: white;
