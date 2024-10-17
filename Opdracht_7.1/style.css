@@ -8,7 +8,7 @@
 
 
 h1 {
-    background-color: red;
+    background-color: #EA4D4B;
     color: white;
     display: flex;
     position: relative;
@@ -18,13 +18,13 @@ h1 {
 }
 
 .title1 {
-    background-color: yellow;
+    background-color: #F9CA22;
     position: relative;
     padding-top: 1rem;
     padding-left: 4rem;
 }
 .p1 {
-    background-color: yellow;
+    background-color: #F9CA22;
     position: relative;
     height: 23.2vh;
     padding-left: 4rem;
@@ -32,13 +32,13 @@ h1 {
 }
 
 .title2 {
-    background-color: orange;
+    background-color: #F0922B;
     position: relative;
     padding-top: 1rem;
     padding-left: 4rem;
 }
 .p2 {
-    background-color: orange;
+    background-color: #F0922B;
     position: relative;
     height: 23.2vh;
     padding-left: 4rem;
@@ -46,15 +46,70 @@ h1 {
 }
 
 .title3 {
-    background-color: green;
+    background-color: #69B04C;
     position: relative;
     padding-top: 1rem;
     padding-left: 4rem;
 }
 .p3 {
-    background-color: green;
+    background-color: #69B04C;
     position: relative;
     height: 23.2vh;
     padding-left: 4rem;
     padding-right: 1rem;
+}
+
+
+
+
+@media (max-width: 600px) {
+    h1 {
+        background-color: #686DE0;
+        padding-left: 1rem;
+    }
+
+    .title1 {
+        background-color: #7ED6DF;
+        color: white;
+        position: relative;
+        padding-left: 45vw;
+        padding-top: 6vh;
+    }
+    .p1 {
+        background-color: #7ED6DF;
+        color: white;
+        position: relative;
+        padding-left: 2rem;
+        height: 20vh;
+    }
+    
+    .title2 {
+        background-color: #E056FD;
+        color: white;
+        position: relative;
+        padding-left: 45vw;
+        padding-top: 6vh;
+    }
+    .p2 {
+        background-color: #E056FD;
+        color: white;
+        position: relative;
+        padding-left: 2rem;
+        height: 20vh;
+    }
+    
+    .title3 {
+        background-color: #30336A;
+        color: white;
+        position: relative;
+        padding-left: 45vw;
+        padding-top: 6vh;
+    }
+    .p3 {
+        background-color: #30336A;
+        color: white;
+        position: relative;
+        padding-left: 2rem;
+        height: 20vh;
+    }
 }
