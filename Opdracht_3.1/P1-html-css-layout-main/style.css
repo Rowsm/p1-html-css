@@ -344,7 +344,8 @@ footer p {
   margin: 0; 
 }
 .dropdown-content {
-  display: none;
+  display: flex;
+  visibility: hidden;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 100%;
@@ -361,10 +362,12 @@ footer p {
 }
 .dropdown-content a:hover {
   background-color: #E9E9E9;
+  visibility: visible;
 }
 .dropdown:hover .dropdown-content {
   display: flex;
   flex-direction: column;
+  visibility: visible;
 }
 .dropdown:hover .dropbtn {
   background-color: white;
